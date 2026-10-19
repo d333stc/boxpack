@@ -63,6 +63,62 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      {/* Как начать работать с нами */}
+      <section id="steps" className="bg-white py-16">
+        <div className="mx-auto max-w-6xl px-4">
+          <h2 className="text-center text-2xl font-bold">
+            Как начать работать с нами
+          </h2>
+          <p className="mt-3 text-center text-sm">
+            Подключение занимает всего несколько дней. Все процессы максимально
+            автоматизированы.
+          </p>
+
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="rounded-[10px] bg-[#f0f0f0] p-5">
+              <p className="text-xs font-bold">ШАГ 1</p>
+              <h3 className="mt-2 text-xs">Оставляете заявку</h3>
+              <p className="mt-2 text-xs text-gray-400">Через сайт или Telegram</p>
+            </div>
+
+            <div className="rounded-[10px] bg-[#f0f0f0] p-5">
+              <p className="text-xs font-bold">ШАГ 2</p>
+              <h3 className="mt-2 text-xs">Получаете расчет</h3>
+              <p className="mt-2 text-xs text-gray-400">Под ваш объем и формат работы</p>
+            </div>
+
+            <div className="rounded-[10px] bg-[#f0f0f0] p-5">
+              <p className="text-xs font-bold">ШАГ 3</p>
+              <h3 className="mt-2 text-xs">Подписываем договор</h3>
+              <p className="mt-2 text-xs text-gray-400">Через ЭДО</p>
+            </div>
+
+            <div className="rounded-[10px] bg-[#f0f0f0] p-5">
+              <p className="text-xs font-bold">ШАГ 4</p>
+              <h3 className="mt-2 text-xs">Принимаем товар</h3>
+              <p className="mt-2 text-xs text-gray-400">От поставщика или транспортной компании</p>
+            </div>
+
+            <div className="rounded-[10px] bg-[#f0f0f0] p-5">
+              <p className="text-xs font-bold">ШАГ 5</p>
+              <h3 className="mt-2 text-xs">Автоматизированная упаковка</h3>
+              <p className="mt-2 text-xs text-gray-400">С видеоконтролем каждого шага</p>
+            </div>
+
+            <div className="rounded-[10px] bg-[#f0f0f0] p-5">
+              <p className="text-xs font-bold">ШАГ 6</p>
+              <h3 className="mt-2 text-xs">Отправляем</h3>
+              <p className="mt-2 text-xs text-gray-400">На маркетплейсы по всей России</p>
+            </div>
+
+            <div className="rounded-[10px] bg-[#f0f0f0] p-5">
+              <p className="text-xs font-bold">ШАГ 7</p>
+              <h3 className="mt-2 text-xs">Получаете результат</h3>
+              <p className="mt-2 text-xs text-gray-400">Отчеты и прозрачная аналитика</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
